@@ -1,16 +1,14 @@
-# React + Vite
+Subscription Management Dashboard
+------------------------------------
+A mini SaaS Admin Dashboard that allows users to:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Register / Login
 
-Currently, two official plugins are available:
+2. View available subscription plans
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Subscribe to a plan
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. View active subscriptions on the user dashboard
+   
+Note: This project simulates backend functionality using localStorage and mock APIs inside React (src/api/fakeApi.js).
+There is no external server required — all CRUD operations (auth, subscriptions, plans) work fully in-browser.
